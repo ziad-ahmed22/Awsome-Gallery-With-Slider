@@ -44,6 +44,11 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
 }
+@media (max-width:600px) {
+    .gallery {
+        margin: 20px; 
+    }
+}
 .gallery .box {
     overflow: hidden;
     position: relative;
